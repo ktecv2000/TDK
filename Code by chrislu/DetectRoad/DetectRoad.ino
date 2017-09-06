@@ -3,7 +3,7 @@
 #define ENABLE 1
 #define DISABLE 0
 /*==========Function Define===============*/
-uint8_t motor_set(uint8_t motorPin, uint8_t mode, uint16_t speeds)
+uint8_t motor_set(uint8_t motorPin, uint8_t mode, uint16_t speeds);
 void Road_Detect();
 void interruptDetect0();
 void interruptDetect1();
